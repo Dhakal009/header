@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    
+
+    .top {
+        width: 100%;
+        height: 55px;
+        background: linear-gradient(to left, #f09122 20%, #c4213a 80%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 400px;
+
+        .text {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            color: white;
+            margin-left: 30px;
+            background-color: black;
+            width: 140px;
+            height: 35px;
+            border-radius: 4px;
+
+
+        }
+    }
+
+    .mid {
+        width: 100%;
+        position: relative;
+        height: 100px;
+        display: flex;
+        .logo{
+            display: flex;
+            p{
+                margin-top: 45px;
+                margin-left: 30px;
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+
+        img {
+            padding-left: 25px;
+            padding-top: 10px;
+        }
+        .search{
+            margin-top: 40px;
+            margin-right: 15px;
+            // display: flex;
+            align-items: center;
+            padding-right: 60px;
+            width: 350px; 
+            height: 50.5px;
+        }
+      .quiry{
+        height: 47px;
+        width: 150px;
+        margin-top: 24px;
+        margin-left: 10px;
+        padding: 5px;
+        background-color: #122C91;
+        color: white;
+        font-weight: 600;
+        padding-top: 1px;
+        margin-left: 5px;
+        border-radius: 5px;
+      }
+      .quiry:hover{
+        background-color: #2155CA;
+      }
+    }
+
+    .nav {
+        border-top: 1px solid #eaeaea;
+        height: 55px;
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        padding-bottom: 40px;
+       
+        // margin-left: -20px;
+        
+
+
+        a {
+            text-decoration: none;
+            padding-top: 15px;
+            padding-left: 40px;
+            margin-left: 20px;
+            // margin-right: 50px;
+            color: black;
+            font-family: "Source Sans 3", sans-serif;
+
+            font-weight: 600;
+
+
+
+
+
+        }
+
+        a:hover {
+            border-top: 1px solid blue;
+            color: blue;
+            
+
+        }
+
+
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-color: #f09122;
+    display: flex;
+
+    .left {
+
+        display: flex;
+        width: 40%;
+        height: 530px;
+        background-color: #274595;
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-family: "libre baskerville";
+            font-weight: 600;
+            font-size: 40px;
+
+        }
+
+        button {
+            width: 220px;
+            height: 50px;
+            background-color: #81E9E6;
+            color: #274595;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #00BBB6;
+            color: white;
+        }
+
+    }
+
+    p {
+        font-size: 15px;
+        padding-top: 25px;
+    }
+
+}
+
+.slider {
+    width: 53.7%;
+    height: 530px;
+
+}
+
+.right {
+
+    width: 26.5%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+
+    .top {
+        background-color: #2A6FDB;
+        width: 100%;
+        height: 50%;
+        color: white;
+        
+
+        .img {
+            width: 100%;
+            padding-left: 30px;
+            padding-top: 40px;
+        }
+        .mid-text{
+            font-size: 50px;
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+        }
+        .bottom-text{
+            padding-left: 30px;
+            font-size: 18px;
+            font-family: "Source Sans 3", sans-serif;
+            
+        }
+    }
+
+    .bottom {
+        background-color: #81E9E6;
+        width: 100%;
+        height: 50%;
+        color: #274595;
+      
+        
+        .image{
+            width: 100%;
+            padding-left: 30px;
+            padding-top: 40px;
+        }
+        .mid-text{
+            font-size: 50px;
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+        }
+        .bottom-text{
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+            font-size:18px;
+        }
+    }
+}
